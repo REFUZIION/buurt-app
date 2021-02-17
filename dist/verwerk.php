@@ -21,7 +21,7 @@
 
 // if $naam ==== sendertable.name { }
 // haal op id op en controleer of het het zelfde is
-     $sql = "SELECT * FROM `sender` WHERE `name` = $naam";    // get information by name query
+     $sql = "SELECT * FROM `sender` WHERE `id` = $id";    // get information by name query
 
 
      // $naam vergelijken met sender tabel --- staat deze naam in het sender tabel, dan pak ik het id op en stop ik hem in point of intrest bij de rest
