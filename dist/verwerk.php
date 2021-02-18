@@ -28,7 +28,9 @@
      $sql1 = "IF name EXISTS ( SELECT * FROM `sender` WHERE name = $naam ) ELSE ( INSERT INSERT INTO `poi`(`sender_id`, `description`, `lat`, `lng`, `action_id`, `date`) VALUES ($name, $desc, $lat, $lng, $action, CURRENT_TIMESTAMP)"; // if name exists check. sql
 
      
-
+     //!!!
+     // Ik had voor deze opdracht helaas niet genoeg tijd dus moet hem zo inleveren
+     //!!!
      
      // staat hij niet in de tabel, dan voeg ik de naam toe aan sender en vervolgens daarvan de inser id opvragen
      
