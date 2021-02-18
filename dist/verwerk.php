@@ -13,7 +13,7 @@
 
      // Ophalen van gegevens uit het formulier
 
-     $naam = $_POST["name"];
+     $name = $_POST["name"];
      $desc = $_POST["description"];
      $lat = $_POST["lat"];
      $lng = $_POST["lng"];
@@ -21,12 +21,13 @@
 
 // if $naam ==== sendertable.name { }
 // haal op id op en controleer of het het zelfde is
+     $sql = "SELECT * FROM `sender` WHERE `id` = $id";    // get information by name query
 
 
-     // $naam vergelijken met sender tabel
+     // $naam vergelijken met sender tabel --- staat deze naam in het sender tabel, dan pak ik het id op en stop ik hem in point of intrest bij de rest
+     $sql1 = "IF name EXISTS ( SELECT * FROM `sender` WHERE name = $naam ) ELSE ( INSERT INSERT INTO `poi`(`sender_id`, `description`, `lat`, `lng`, `action_id`, `date`) VALUES ($name, $desc, $lat, $lng, $action, CURRENT_TIMESTAMP)"; // if name exists check. sql
 
-
-     // staat deze naam in het sender tabel, dan pak ik het id op en stop ik hem in point of intrest bij de rest
+     
 
      
      // staat hij niet in de tabel, dan voeg ik de naam toe aan sender en vervolgens daarvan de inser id opvragen
