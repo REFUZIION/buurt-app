@@ -1,10 +1,10 @@
  ----------------------------------------------------------
 # Grafisch Lyceum Utrecht / Webdevelloper
  ----------------------------------------------------------
- Project:   2WDV / Geo Location
- Tools:     ReactJS / JSON / GoogleMapsAPI & GeoLocation / Webpack
- Docent:    Lukas Stroomer
- Datum:     10 februari
+ - Project:   2WDV / Geo Location
+ - Tools:     ReactJS / PHP / JSON / GoogleMapsAPI & GeoLocation / Webpack
+ - Docent:    Lukas Stroomer
+ - Datum:     10 februari 2021
  ----------------------------------------------------------
  Workshop (keywords: JSON, POIs, Maps, ReactJS):
  
