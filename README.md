@@ -16,9 +16,8 @@
  -----------------------------------------------------------------------------
 
  URLs & bronnen
- 
- Crash course Webpack: https://www.youtube.com/watch?v=lFjinlwpcHY
- GOOGLE API DEV:       https://console.developers.google.com/apis/ 
- JSON validator:       https://jsonformatter.curiousconcept.com/
- gmaps skins:          https://snazzymaps.com/
- https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places
+ - Crash course Webpack: https://www.youtube.com/watch?v=lFjinlwpcHY
+ - GOOGLE API DEV:       https://console.developers.google.com/apis/ 
+ - JSON validator:       https://jsonformatter.curiousconcept.com/
+ - gmaps skins:          https://snazzymaps.com/
+ - https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places
